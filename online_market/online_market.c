@@ -1,4 +1,18 @@
+/*
+This is a C program for a market that allows a customer to order products and generates a receipt for them.
+The program starts by prompting the user to enter their name, city, and phone number.
+Then it displays a list of available products that the customer can order from.
+The customer is asked to select the product numbers they want to order, and the program adds them to the customer's order list.
+If the customer selects a product that is already in the order list, the program increments the quantity of that product.
+After the customer has finished selecting products, the program calculates the total cost of the order, including a delivery fee that is based on the customer's city.
+The program then prints a receipt that shows the product name, price, quantity, and total cost of each item, as well as the delivery fee and the total cost of the order.
+The program allows the customer to continue adding products to their order or checkout, and prompts them to choose between the two options.
+The program continues to take orders until the customer chooses to checkout. 
+Finally, the program displays a goodbye message to the customer.
 
+The program uses several C language constructs, including structs, loops, and conditionals, and makes use of functions for printing the product list and generating the receipt.
+The program could be useful for anyone looking to build a simple ordering system or to learn more about C programming.
+*/
 
 
 
